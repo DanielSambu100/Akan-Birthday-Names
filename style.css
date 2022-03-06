@@ -1,36 +1,14 @@
-*{
-    padding: o;
-    margin: 0;
+.h2{
+    text-align: center;
+    padding-top: 20px;
 }
 .container{
     background-color: #252b428c;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
-    padding: 20px;
-    /* margin: 20px; */
 }
-.header .nav .nav-link{
-    display: flex;
-    padding: 20px;
-    margin: 20px;
+.main{
+    height: 80vh;
 }
-.nav-link{
-    align-items: right;
-    display: inline-block;
-}
-li{
-    list-style-type: none;
-    flex-direction: row;
-    text-align: right;
-}
-.sub-header{
-    margin-top: 150px;
-}
- h1{
+.p-f{
     text-align: center;
-}
-button{
-    border-radius: 15px;
-    background-color: rgb(112, 78, 78);
 }
