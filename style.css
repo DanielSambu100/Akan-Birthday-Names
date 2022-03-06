@@ -1,0 +1,26 @@
+*{
+    padding: o;
+    margin: 0;
+}
+.container{
+    background-color: #252b428c;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header .nav .nav-link{
+    /* display: block; */flex: ;
+
+}
+.nav-list{
+    float: right;
+    display: inline;
+}
+li{
+    list-style-type: none;
+    flex-direction: row;
+    text-align: right;
+}
+ h1{
+    text-align: center;
+}
