@@ -24,10 +24,22 @@
             <div class="section">
                 <h3>Please Enter Your Birthdate:</h3>
                 <form action="">
-                  <input id="input1" type="text" placeholder="enter your birthdate">
+                  <input id="input1" type="text" placeholder="Enter your birthdate">
                   <button onclick="submitForm">Submit</button> 
-                  <h3 id="text">Your Akan Gender:</h3> 
                 </form>
+                  <h3 id="text">Please Select Your Akan Gender:</h3> 
+                  <form action="">
+                      <input type="radio" id="male" name="fav_gender" value="male">
+                      <label for="male">Male</label><br>
+                      <input type="radio" id="female" name="fav-gender" value="female">
+                      <label for="female">Female</label>
+                  </form>
+                <!-- <form>
+                  <input id="input2" type="radio" value="male" onclick="SubmitEvent1">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="input3" value="female" onclick="SubmitEvent2">
+                  <label for="female">Female</label>
+                </form> -->
             </div>
         </main>
         <footer class="">
