@@ -37,14 +37,19 @@
                 <div class="form">
                     <h3>Please Enter Your Birthdate:</h3>
                     <form action="">
-                      <input id="input1" type="text" placeholder="Enter your birthdate" required>
-                      <button onclick="submitForm()">Submit</button> 
+                      <input id="input1" type="date" placeholder="Enter your birthdate" required>
+                      <button id="button">Submit</button> 
                         <br>
-                      <h3 id="text">Please Select Your Akan Gender:</h3> 
+                        <select name="" id="selection">
+                            <option value="select gender">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                      <!-- <h3 id="text">Please Select Your Akan Gender:</h3> 
                           <input type="radio" id="male" name="fav_gender" value="male">
                           <label for="male">Male</label><br>
                           <input type="radio" id="female" name="fav-gender" value="female">
-                          <label for="female">Female</label>
+                          <label for="female">Female</label> -->
                     </form>
                 </div>
                
