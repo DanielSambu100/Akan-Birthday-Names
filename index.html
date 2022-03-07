@@ -21,11 +21,29 @@
         </nav>
         <main class="main">
             <h2 class="h2">Welcome to Akan Birthday Names!</h2>
-
+            <div class="section">
+                <h3>Please Enter Your Birthdate:</h3>
+                <form action="">
+                  <input id="input1" type="text" placeholder="enter your birthdate">
+                  <button onclick="submitForm">Submit</button> 
+                  <h3 id="text">Your Akan Gender:</h3> 
+                </form>
+            </div>
         </main>
         <footer class="">
             <p class="p-f">Designed by: Dansam Sons Ltd, 2022. All rights reserved!</p>
         </footer>
        </div>
+       <script>
+           let input = document.querySelector(#input1);
+           let h1 = document.getElementById("text");
+
+           function submitForm(){
+               let value = input.value;
+               if(value === ""){
+                   h1.innerText = "Sorry, the form cannot be empty"
+               }
+           } 
+       </script>
     </body>
     </html>
