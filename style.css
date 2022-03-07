@@ -19,4 +19,12 @@
 }
 .p-f{
     text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+.footer{
+    text-align: center;
+    height: 10%;
+    background-color: black;
+    width: 100% 100%;
 }
