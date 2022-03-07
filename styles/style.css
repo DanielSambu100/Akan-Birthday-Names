@@ -22,9 +22,9 @@
     color: white;
     padding-top: 15px;
 }
-.footer{
+.container>.footer{
     text-align: center;
     height: 10%;
     background-color: black;
-    width: 100% 100%;
+    width: 100%;
 }
