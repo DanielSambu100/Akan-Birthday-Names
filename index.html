@@ -26,14 +26,14 @@
                 <form action="">
                   <input id="input1" type="text" placeholder="Enter your birthdate">
                   <button onclick="submitForm">Submit</button> 
-                </form>
+                    <p id="p1">Your Akan Gender is:</p>
                   <h3 id="text">Please Select Your Akan Gender:</h3> 
-                  <form action="">
+                
                       <input type="radio" id="male" name="fav_gender" value="male">
                       <label for="male">Male</label><br>
                       <input type="radio" id="female" name="fav-gender" value="female">
                       <label for="female">Female</label>
-                  </form>
+                </form>
             </div>
         </main>
         <footer class="">
@@ -42,12 +42,17 @@
        </div>
        <script>
            let input = document.querySelector(#input1);
-           let h1 = document.getElementById("text");
+           let p  = document.getElementById("p1").innerText="doc";
+           let doc={
+            male: "Your male akan name is:";
+            female: "Your female akan name is:";
+           }
 
            function submitForm(){
                let value = input.value;
                if(value === ""){
-                   h1.innerText = "Sorry, the form cannot be empty"
+                   p.innerText = "Sorry, the form cannot be empty";
+                   return;
                }
            } 
        </script>
