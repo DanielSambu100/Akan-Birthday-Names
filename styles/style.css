@@ -25,6 +25,7 @@
 }
 .akan-table,tr,th,td {
     border: 1px black solid;
+    border-collapse: collapse;
 }
 .p-f{
     text-align: center;
