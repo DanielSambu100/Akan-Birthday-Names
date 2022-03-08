@@ -19,11 +19,16 @@ button.addEventListener("click",function(evt){
   //making decision in the arrays given based on the given gender conditions
   for(let choice of gender){
     let myGender = choice.value;
+     
     if(myGender==="male"){
       output.innerHTML = `Your Akan name is ${maleNames[myDay]}`
     }
     else if(myGender==="female"){
       output.innerHTML = `Your Akan name is ${femaleNames[myDay]}`
     }
+    else{
+      output.innerHTML = `Name does not exist`
+    }
   }
-})
+}
+)
