@@ -11,11 +11,20 @@
     height: 80vh;
 }
 .section{
-    justify-content: space-evenly;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     text-align: center;
     padding-top: 40px;
+}
+.description{
+    padding-left: 30px;
+}
+.form{
+    padding-right: 150px;
+}
+.akan-table,tr,th,td {
+    border: 1px black solid;
 }
 .p-f{
     text-align: center;
